@@ -18,7 +18,6 @@ public class LobbyMenu : NetworkDiscovery
         lobby = gameObject.GetComponent<Lobby>();
     }
 
-
     public void CreateServeur()
     {
         Initialize();

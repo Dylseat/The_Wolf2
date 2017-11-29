@@ -20,8 +20,8 @@ public class PlayerController : NetworkBehaviour
     Vector3 moveDirection;
     CharacterController controller;
     [SerializeField] [SyncVar] int playerID = -1;
-    [SerializeField]
-    GameObject gameOverUi;
+    /*[SerializeField]
+    GameObject gameOverUi;*/
 
     [SerializeField][SyncVar]
     int health;
